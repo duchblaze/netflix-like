@@ -1,0 +1,40 @@
+button {
+  background-color: #E50914;
+  color: #FFFFFF;
+  border: none;
+  transition: .5s ease-in;
+}
+
+img {
+  height: 100px;
+  cursor: pointer;
+}
+
+div, h3, p {
+  color: #FFFFFF;
+}
+
+/* styles.css */
+.custom-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Adjust the height, width, and other styles as needed */
+.custom-spinner img {
+  animation: spin 2s linear infinite;
+  max-width: 100px; /* Adjust the size of your logo */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+

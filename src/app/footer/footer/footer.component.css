@@ -1,0 +1,77 @@
+:host {
+  display: block;
+  background-color: rgb(59, 57, 57);
+  padding: 1rem 0;
+  color: #ffffff;
+}
+
+
+
+.logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.5rem;
+  line-height: 2rem;
+
+}
+
+.logo span a:nth-child(1) {
+  padding: 0 1rem;
+  margin: 0 auto 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  color: red;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.links {
+  gap: 3rem;
+  display: flex;
+  margin: 1rem auto;
+  width: max-content;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links ul li{
+  padding: 0.4rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: max-content;
+  margin: 1rem auto 0;
+}
+
+@media screen and (min-width: 1200px) {
+  :host {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .logo, .links, .contact-info {
+    margin: 0;
+  }
+
+  .logo span:nth-child(1) {
+    font-size: 2.5rem;
+  }
+
+  .links ul li:hover {
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+

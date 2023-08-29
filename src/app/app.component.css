@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar .container .navbar-brand {
+  color: red;
+  font-weight: 800;
+  /* letter-spacing: .2rem; */
+  font-size: 2.5rem;
+
+}
+
+.navbar {
+  border-bottom: 1px solid green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar .container .collapse ul li a {
+  color: red;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* .nav-transition {
+  transition: background-color 0.3s ease;
+} */
+
+
+
+/* .navbar .container .navbar-brand  a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  transform: scale(0);
+  background-color: green;
+  transition: transform 400ms ease-in-out;
+} */
+
+ .navbar .container .navbar-brand  a:hover::before {
+  /* transform: scaleX(1); */
+  /* transform-origin: left; */
+}
+
+app-footer {
+  margin-top: auto; /* Push the footer to the bottom of the wrapper */
+}

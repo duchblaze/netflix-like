@@ -1,0 +1,43 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+h3, p, h4 {
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  text-align: justify;
+}
+
+h4 span{
+  letter-spacing: .2rem;
+  color: red;
+}
+
+a {
+  background-color: red;
+  color: #ffffff;
+  text-decoration: none;
+  transition: .3s ease-in;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #ffffff;
+  /* border: 1PX SOLID #FFFFFF */
+  background-color: #eb4c54;
+  font-weight: bold;
+}
+
+.container .row .col .cast .col-lg-4 .movie-cast {
+  display: flex;
+  color: #eb4c54;
+
+}
